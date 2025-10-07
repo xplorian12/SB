@@ -1,6 +1,6 @@
 ---
 title: "SB Cities Dashboard"
-runtime: shiny_prerendered
+runtime: shiny
 output: html_document
 ---
 
@@ -315,7 +315,15 @@ server <- function(input, output, session) {
   })
 }
 
+
+
 ```
+
+
+```{r}
+shinyApp(ui, server)
+```
+
 
 
 
