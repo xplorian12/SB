@@ -1,8 +1,0 @@
-*
-!scratch.Rmd
-!Dockerfile
-!.render.yaml
-!.gitignore
-!data/
-!data/derived/
-!data/derived/*.rds
