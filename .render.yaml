@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: sb-cities-dashboard
-    env: docker
-    plan: free
-    autoDeploy: true
-    previews: false
